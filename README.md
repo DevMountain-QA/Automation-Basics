@@ -1,26 +1,25 @@
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
+<img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250" align="right">
 
-# 2.5 Assessment - Automation Basics
+# Automation Basics
 
 ## Setup
 
-Fork this repository, clone it to your computer, and then `cd` into the repository folder.  As usual, `npm i` will install the needed dependencies and `npm start` will run the app.  You'll need to open a second terminal to run your tests using the `nightwatch` command.
+Add one more file to the `tests` folder we've been using so far this week. I'd call mine `practice.js` or something to that effect. Then read through the instructions, including how the application executes.
 
-## Your Assessment
+## Your Assignment
 
 This project includes several small pieces of functionality.  We will be testing all of them!  Remember that to set up your testing, you can:
 
-1. Copy and paste an existing `nightwatch.props.js`.
-1. Create your test framework, usually a "tests" or "nightwatch" folder in the repository's base directory, and testing/resource folders inside of that.
-   * The existing `nightwatch.conf.js` file is expecting your tests to be in a `nightwatch/tests` folder; if you wanted to do something different, you are more than welcome to, but don't forget to update the `"src_folders"` property of the `nightwatch.conf.js` file appropriately.
+
 1. Plan WHAT should be tested.
    * Start with one test for each piece of functionality and get as far as you can, before you worry about testing the same piece multiple ways.
 1. Plan HOW you can test these items.
    * You can put this information into JIRA if it will be helpful for you, but it is not required for this assessment.
-1. Gather selectors.  I do want to see a page object file for this project.
-1. What test data will you need?  You *can* but don't have to have a separate file for the test data.
-   * If you need help for any of this old projects are fair game, the internet is fair game, but I'd prefer you don't discuss this much amongst yourselves.
-1. Start writing!
+1. Start writing your tests!
+   * If you have a test for each section of the app, write additional testing for each. 
+      * Test something that is a palindrome as well as something that isn't.
+      * Write a test that generates an error or a `null` value.
+      * etc.
 
 If you aren't sure where to get started, an easy way to organize your tests is to write your steps in comments, and then in code.
 
@@ -78,7 +77,7 @@ If you see a problem or a typo, please fork, make the necessary changes, and cre
 © DevMountain LLC, 2018. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
 
 <p align="center">
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+<img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250">
 </p>
 
 
