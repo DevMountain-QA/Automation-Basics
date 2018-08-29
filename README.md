@@ -4,12 +4,11 @@
 
 ## Setup
 
-Add one more file to the `tests` folder we've been using so far this week. I'd call mine `practice.js` or something to that effect. Then read through the instructions, including how the application executes.
+Add one more file to the `tests` folder we've been using so far this week. I'd call mine `practice.js` or something to that effect. Then just follow the instructions.
 
 ## Your Assignment
 
 This project includes several small pieces of functionality.  We will be testing all of them!  Remember that to set up your testing, you can:
-
 
 1. Plan WHAT should be tested.
    * Start with one test for each piece of functionality and get as far as you can, before you worry about testing the same piece multiple ways.
@@ -42,7 +41,7 @@ For example, based on the **Odds and Evens** bit of functionality:
 * `.click()` - we'll use this one
 * `.setValue()` - we'll set that for sure
 * `.expect.element().text.to.equal()` - just like testing the calculator...
-* `.expect.element().text.to.contain()` - works exactly the same as the above, except that it looks for something to appear SOMEWHERE in the element's text, not for an exact match.  (`{hello: 'world', goodnight: 'moon'}` could have a match for "hello" or "moon" if we used this command)
+* `.expect.element().text.to.contain()` - works exactly the same as the above, except that it looks for something to appear SOMEWHERE in the element's text, not for an exact match.  `{hello: 'world', goodnight: 'moon'}` could have a match for `hello` or `moon` if we used this command.
 
 Look at the [NightwatchJS API docs for more details](http://nightwatchjs.org/api).
 
