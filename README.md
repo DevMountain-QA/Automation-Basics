@@ -25,6 +25,7 @@ This project includes several small pieces of functionality.  We will be testing
       * Test something that is a palindrome as well as something that isn't.
       * Write a test that generates an error or a `null` value.
       * etc.
+   * Use your page object in your tests.
 1. Save, add, commit, and push your tests using VS Code, git, and GitHub.
 
 If you aren't sure where to get started, an easy way to organize your tests is to write your steps in comments, and then in code.
