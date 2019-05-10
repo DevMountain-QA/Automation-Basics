@@ -1,10 +1,14 @@
 <img src="https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png" width="250" align="right">
 
-# Automation Basics
+# Checkpoint 2
 
 ## Setup
 
-Add one more file to the `tests` folder we've been using so far this week. I'd call mine `practice.js` or something to that effect. Then just follow the instructions.
+1. Create an empty repository on GitHub. Review previous assignments before asking for assistance with this step.
+1. Clone that repository to your machine.
+1. Add in the nightwatch files, a `tests` folder, and a `pageObjects` folder.
+1. Add at least one test file to the `tests` folder.
+1. Create a page object file in the `pageObjects` folder.
 
 ## Your Assignment
 
@@ -12,13 +16,16 @@ This project includes several small pieces of functionality.  We will be testing
 
 1. Plan WHAT should be tested.
    * Start with one test for each piece of functionality and get as far as you can, before you worry about testing the same piece multiple ways.
+1. Put all the selectors you might need into the page object file.
+   * Don't forget to include the URL for this applicaiton.
 1. Plan HOW you can test these items.
    * You can put this information into JIRA if it will be helpful for you, but it is not required for this assessment.
 1. Start writing your tests!
-   * If you have a test for each section of the app, write additional testing for each. 
+   * Don't settle for one test for each section of the app, write additional testing. 
       * Test something that is a palindrome as well as something that isn't.
       * Write a test that generates an error or a `null` value.
       * etc.
+1. Save, add, commit, and push your tests using VS Code, git, and GitHub.
 
 If you aren't sure where to get started, an easy way to organize your tests is to write your steps in comments, and then in code.
 
